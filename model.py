@@ -77,7 +77,7 @@ tsb = TensorBoard(log_dir='./logs', histogram_freq=0, batch_size=32, write_graph
                 embeddings_layer_names=None, embeddings_metadata=None, embeddings_data=None, 
                 update_freq='epoch')
 
-model.fit(X_train, y_train, epochs = 25)
+model.fit(X_train, y_train, epochs = 50)
 
 loss, score = model.evaluate(X_test, y_test)
 
